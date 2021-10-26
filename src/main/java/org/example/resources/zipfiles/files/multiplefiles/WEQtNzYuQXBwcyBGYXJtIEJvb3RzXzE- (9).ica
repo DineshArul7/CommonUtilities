@@ -1,0 +1,88 @@
+[Encoding]
+InputEncoding=UTF8
+
+[WFClient]
+ProxyFavorIEConnectionSetting=Yes
+ProxyTimeout=30000
+ProxyType=Auto
+ProxyUseFQDN=Off
+RemoveICAFile=yes
+TransparentKeyPassthrough=Local
+TransportReconnectEnabled=Off
+Version=2
+VirtualCOMPortEmulation=On
+
+[ApplicationServers]
+Apps Farm Boots_1=
+
+[Apps Farm Boots_1]
+Address=;40;STA350532848;2E166872B99E498365FFC066C3DDE8
+AutologonAllowed=ON
+BrowserProtocol=HTTPonTCP
+CGPSecurityTicket=On
+ClearPassword=15ACC937A0B529
+ClientAudio=On
+DesiredColor=8
+DesiredHRES=0
+DesiredVRES=0
+Domain=\23A7359C9EAB89DF
+DoNotUseDefaultCSL=On
+FontSmoothingType=0
+HDXoverUDP=Off
+HTTPBrowserAddress=!
+InitialProgram=#Apps Farm Boots_1
+Launcher=WI
+LaunchReference=066DDF3EF78A8C09FF5AAB5043FE55
+LocHttpBrowserAddress=!
+LogonTicket=15ACC937A0B52923A7359C9EAB89DF
+LogonTicketType=CTXS1
+LongCommandLine=
+LPWD=406
+NRWD=281
+ProxyTimeout=30000
+ProxyType=Auto
+SecureChannelProtocol=Detect
+SessionsharingKey=FImLhfKCdCA3f3QrNoyNC6B4517lWew4
+SFRAllowed=Off
+SSLCiphers=all
+SSLEnable=On
+SSLProxyHost=eu-webapp.wba.com:443
+startSCD=1634898727110
+Title=Remote Desktop Connection
+TransportDriver=TCP/IP
+TRWD=0
+TWIMode=On
+WinStationDriver=ICA 3.0
+
+[Compress]
+DriverNameWin16=pdcompw.dll
+DriverNameWin32=pdcompn.dll
+
+[DataStoreDSX Sear-1]
+ScreenPercent=85
+TWIMode=Off
+
+[EncRC5-0]
+DriverNameWin16=pdc0w.dll
+DriverNameWin32=pdc0n.dll
+
+[EncRC5-128]
+DriverNameWin16=pdc128w.dll
+DriverNameWin32=pdc128n.dll
+
+[EncRC5-40]
+DriverNameWin16=pdc40w.dll
+DriverNameWin32=pdc40n.dll
+
+[EncRC5-56]
+DriverNameWin16=pdc56w.dll
+DriverNameWin32=pdc56n.dll
+
+[Notepad - Deu-P_1]
+ScreenPercent=100
+TWIMode=Off
+
+[PA Web Prod - Perf]
+ScreenPercent=100
+TWIMode=Off
+
